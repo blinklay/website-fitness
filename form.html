@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="top-line">
+      <p class="top-line__text">Bienvenida, cada día cuenta</p>
+    </div>
+    <header class="header">
+      <div class="header__inner">
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="images/logo.svg" alt="Achieve logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="mneu__list-item"><a class="menu__list-link" href="membresias.html">Membresias</a></li>
+            <li class="mneu__list-item"><a class="menu__list-link" href="fom--2.html">Rutinas</a></li>
+            <li class="mneu__list-item"><a class="menu__list-link" href="cobre.html">Sobre nosotros</a></li>
+            <li class="mneu__list-item"><a class="menu__list-link" href="#">Get Togethers</a></li>
+            <li class="mneu__list-item"><a class="menu__list-link" href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="user__nav">
+          <a class="user__btn" href="#">Suscribirme</a>
+          <a class="user__btn" href="login.html">Log in</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="account">
+        <div class="container">
+          <h2 class="section__title account__title">
+            Crea tu cuenta
+          </h2>
+          <div class="account__inner">
+            <div class="account__points">
+              <ul class="account__list">
+                <li class="account__list-item">Cancela sin compromisos.</li>
+                <li class="account__list-item">Misma cuota cada mes.</li>
+                <li class="account__list-item">Pago recurrente</li>
+              </ul>
+            </div>
+            <div class="account__form">
+              <form class="form">
+                <h5 class="form__title">
+                  Selecciona tu método de pago
+                </h5>
+                <p class="form__text">Número de tarjeta</p>
+                <input class="form__input" type="text" placeholder="Type here">
+                <p class="form__text">Titular</p>
+                <input class="form__input" type="text" placeholder="Type here">
+                <p class="form__text">Fecha de caducidad</p>
+                <div class="form__info">
+                  <select class="form__select" name="month" id="month-select">
+                    <option value="">Month</option>
+                    <option value="dog">Month</option>
+                    <option value="cat">Month</option>
+                    <option value="hamster">Month</option>
+                    <option value="parrot">Month</option>
+                    <option value="spider">Month</option>
+                    <option value="goldfish">Month</option>
+                  </select>
+                  <select class="form__select" name="year" id="year-select">
+                    <option value="">Year</option>
+                    <option value="dog">Year</option>
+                    <option value="cat">Year</option>
+                    <option value="hamster">Year</option>
+                    <option value="parrot">Year</option>
+                    <option value="spider">Year</option>
+                    <option value="goldfish">Year</option>
+                  </select>
+                </div>
+                <button class="form__sumbit" type="sumbit">Realizar Operación</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <ul class="footer__info-list">
+              <li class="footer__info-item"><a class="footer__info-link" href="#">Rutinas</a></li>
+              <li class="footer__info-item"><a class="footer__info-link" href="#">Sobre nosotros</a></li>
+              <li class="footer__info-item"><a class="footer__info-link" href="#">Blog</a></li>
+            </ul>
+            <ul class="footer__info-list">
+              <li class="footer__info-item"><a class="footer__info-link" href="#">FAQ</a></li>
+              <li class="footer__info-item"><a class="footer__info-link" href="#">Get Togethers</a></li>
+              <li class="footer__info-item"><a class="footer__info-link" href="#">Contacto</a></li>
+            </ul>
+            <ul class="footer__info-list">
+              <li class="footer__info-item"><a class="footer__info-link" href="#">@achieve_bymm</a></li>
+              <li class="footer__info-item">©Achieve 2022</li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <a class="footer__logo" href="index.html"><img class="footer__img" src="images/footer__logo.svg" alt=""></a>
+            <div class="footer__nav">
+              <a class="footer__link" href="#">Suscribirme</a>
+              <a class="footer__link" href="login.html">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
